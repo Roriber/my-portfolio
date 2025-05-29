@@ -31,7 +31,7 @@ function App() {
   }, []);
 
   return (
-    <Router basename="/my-react-portfolio">
+    <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -39,7 +39,7 @@ function App() {
 
         <Suspense fallback={<div className="text-white text-center"></div>}>
           <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/project" element={<Projects />} />
             <Route path="/services" element={<Services />} />
