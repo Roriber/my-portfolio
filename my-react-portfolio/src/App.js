@@ -13,7 +13,6 @@ import {
   Routes,
 } from "react-router-dom";
 
-// Lazy loading components
 const Home = lazy(() => import("./components/Home/Home"));
 const About = lazy(() => import("./components/About/About"));
 const Projects = lazy(() => import("./components/Projects/Projects"));
@@ -31,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <Router basename="/my-portfolio">
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
