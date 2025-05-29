@@ -6,7 +6,7 @@ function Services() {
   return (
     <Container fluid className="about-section d-flex flex-column justify-content-center min-vh-100">
       <Helmet>
-        <title>Services | Roland Oliver Petrola</title>
+        <title>My Portfolio | Roland Oliver Petrola</title>
         <meta name="description" content="Software development services offered by Roland Oliver Petrola, including full-stack development, mobile app prototyping, API integration, and custom web features." />
         <meta name="keywords" content="Roland Oliver Petrola, Software Developer, Services, Full-Stack Development, API Integration, React, Firebase" />
       </Helmet>

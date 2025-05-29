@@ -8,7 +8,7 @@ function Projects() {
   return (
     <Container fluid className="project-section d-flex flex-column min-vh-100">
       <Helmet>
-        <title>Projects | Roland Oliver Petrola</title>
+        <title>My Portfolio | Roland Oliver Petrola</title>
         <meta
           name="description"
           content="Projects by Roland Oliver Petrola: Almont DigiHealth App, Dashboard UI, and Login Authentication System"

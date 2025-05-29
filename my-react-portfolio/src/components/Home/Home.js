@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="contact-wrapper">
       <Helmet>
-        <title>Home | Roland Oliver Petrola</title>
+        <title>My Portfolio | Roland Oliver Petrola</title>
         <meta name="description" content="Welcome to the personal portfolio of Roland Oliver Petrola, a passionate software developer crafting modern web and mobile solutions." />
       </Helmet>
 

@@ -10,7 +10,7 @@ function About() {
   return (
     <Container fluid className="about-section">
       <Helmet>
-        <title>About | Roland Oliver Petrola</title>
+        <title>My Portfolio | Roland Oliver Petrola</title>
         <meta name="description" content="Learn more about Roland Oliver Petrola's background, skills, and the tools he uses as a software engineer." />
       </Helmet>
 

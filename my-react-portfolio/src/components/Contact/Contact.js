@@ -15,7 +15,7 @@ function Contact() {
 	return (
 		<div className="contact-wrapper">
 			<Helmet>
-				<title>Contact | Roland Oliver Petrola</title>
+				<title>My Portfolio | Roland Oliver Petrola</title>
 				<meta name="description" content="Ways to get in touch with Roland Oliver Petrola. Email, phone, and contact form." />
 				<meta name="keywords" content="Roland Oliver Petrola, contact, email, phone, software developer" />
 			</Helmet>
