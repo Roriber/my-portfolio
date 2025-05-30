@@ -795,3 +795,13 @@ button:focus {
 .project-row::-webkit-scrollbar {
   display: none; 
 }
+
+.app-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  flex: 1;
+}
